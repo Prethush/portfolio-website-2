@@ -5,7 +5,7 @@ function sendMail(params) {
     message: document.getElementById("message").value,
   };
   emailjs.send("gmail", "template_d2ediih", tempParams).then((res) => {
-    alert("Mail successfully send");
+    alert("Your message has been sent. Thank you!");
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("subject").value = "";
