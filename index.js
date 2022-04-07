@@ -21,6 +21,7 @@ function sendMail(params) {
 
 formElm.addEventListener("submit", (e) => {
   e.preventDefault();
+  console.log("clicked");
   validateForms();
 });
 
